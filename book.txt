@@ -24,5 +24,5 @@ INSERT INTO book VALUES (1, 'The Screwtape Letters', 9.95, 25, 1);
 INSERT INTO book VALUES (2, 'The Pilgrim''s Progress', 39.95, 50, 2);
 INSERT INTO book VALUES (3, 'Orthodoxy', 3.95, 10, 1);
 
-INSERT INTO publisher VALUES (1, "MOODY PUBLISHERS");
-INSERT INTO publisher VALUES (2, "MASTER BOOKS");
+INSERT INTO publisher VALUES (1, 'MOODY PUBLISHERS');
+INSERT INTO publisher VALUES (2, 'MASTER BOOKS');

@@ -24,7 +24,7 @@ UPDATE book SET quantity = 20 WHERE book_id = 1;
 
 UPDATE book SET price = 100 WHERE book_id = 1;
 
-SELECT * FROM product_log;
+SELECT * FROM book_log;
 ```
 
 * Use AFTER DELETE to log change history.
@@ -38,7 +38,7 @@ END;
 
 DELETE FROM book WHERE book_id = 1;
 
-SELECT * FROM product_log;
+SELECT * FROM book_log;
 ```
 
 * Use BEFORE UPDATE to validate data.
